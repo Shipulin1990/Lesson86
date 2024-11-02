@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        .btn {
+        width: 10em;
+        height: 3em;
+        margin-top: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <h2 align="center">{{ headline }}</h2>
+        <form target="_self">
+            <button class="btn">Главная</button></form>
+        <form action="http://127.0.0.1:8000/page1/" target="_self">
+            <button class="btn">Магазин</button></form>
+        <form action="http://127.0.0.1:8000/page2/" target="_self">
+            <button class="btn">Корзина</button></form>
+    </body>
+</html>
