@@ -1,0 +1,18 @@
+.btn {
+    width: 10em;
+    height: 3em;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.btn_p {
+    width: 5em;
+    height: 1.5em;
+    margin-top: 5px;
+}
+body {
+    background-color: #d8d6e5;
+}
+h2 {
+    text-align: center;
+}
+
